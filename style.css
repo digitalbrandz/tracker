@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSansSemiBold.eot');
+    src: url('OpenSansSemiBold.eot') format('embedded-opentype'),
+         url('OpenSansSemiBold.woff2') format('woff2'),
+         url('OpenSansSemiBold.woff') format('woff'),
+         url('OpenSansSemiBold.ttf') format('truetype'),
+         url('OpenSansSemiBold.svg#OpenSansSemiBold') format('svg');
+}
+
+
+.container {
+    max-width:500px;
+    margin: 0 auto;
+    }
+    #download {
+        text-align: center;
+        padding: 15px 0;
+    }
+    #download button {
+        padding: 10px 45px;
+        font-size: 20px;
+        background: #00a1ff;
+        color: #fff;
+        border: none;
+    
+    }
+    .resizeme {
+    }
+    .resizeme img {
+        max-width:100%;
+       }
+     .resizeme svg {
+        max-width: 100%;
+        height: auto;
+        background:#1E243C;
+     }  
+    #options {
+        margin-top: 20px;
+      
+    }
+    @media (min-width:600px) {
+        #options {    
+        display: flex;
+        }
+    }
+    #ticker {
+    text-transform: uppercase;
+    
+    }
+    #options .column {
+    }
+    #options .column > * {
+     display:block;
+     margin-bottom:3px;
+    }
+    #options .column > input, #options .column > select {
+    margin-bottom:10px;
+    }
+    
+    .data {
+    color:#E9ECF6;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18.5px;
+    background-color: #1E243C;
+    }
+    .data > * {
+    display:inline-block;
+    }
+    .data.green {
+    color:#00C8A4;
+    }
+    .data.green.red {
+        color:#F03C6C;
+    }
+    .right {
+    text-align:right;
+    }
+    #Toplineobj {
+        background: #1e243c;
+    }
+    #clock {
+        background-color: #1E243C;
+        background-size: 100%;
+        background-repeat:no-repeat;
+    }
+    #clock.weekly {
+        background-image: url(clock.jpg);
+    }
+    #arrow {
+        background-image: url(arrow.jpg);
+        background-size: 100%;
+        background-repeat:no-repeat;
+        width: 11px;
+        height: 13px;
+        margin-left: 3px;
+    }
+    #option {
+        margin-left: 5px;
+    }
+    #quantity {
+    color:#2177D6;
+    }
+    #Topline > * {
+     display:inline-block;
+    }
+    #daysProfitLoss, #positionRatio {
+        padding-right:5px;
+    }
